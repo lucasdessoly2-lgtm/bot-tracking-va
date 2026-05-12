@@ -37,7 +37,7 @@ from accounts import ACCOUNTS
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 RAPIDAPI_KEY = os.environ["RAPIDAPI_KEY"]
-GMS_API_KEY = os.environ.get("GMS_API_KEY")  # optionnel, peut être absent en phase 1
+GMS_API_KEY = os.environ.get("GMS_API_KEY")
 
 # RapidAPI Instagram
 RAPIDAPI_HOST = os.environ.get("RAPIDAPI_HOST", "instagram-scraper-20251.p.rapidapi.com")
